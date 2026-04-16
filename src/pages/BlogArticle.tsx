@@ -153,7 +153,7 @@ Rejoignez la promotion 2025 et faites partie des prochains lauréats de Smart's 
     `,
   },
   {
-    id: 5,
+    // id: 5,
     title: "Nouvelle session de préparation FMSB",
     excerpt: "Inscription ouverte pour la nouvelle session intensive de préparation au concours de médecine.",
     date: "25 Février 2025",

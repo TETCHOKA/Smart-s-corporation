@@ -9,13 +9,13 @@ const values = [
 ];
 
 const team = [
-  { name: "ING. DJIKESSI BRICE", role: "Promoteur de Smart's corporation ", initials: "src/images/brice.jpeg", speciality: "Ingénieur en génie élctrique", alt:"images" },
-  { name: "M. SAA DONALD", role: "Pleg en mathématique", initials: "src/images/sa.jpeg", speciality: "Sciences mathématiques", alt:"images" },
-  { name: "M. DWANDI JOSPIN", role: "Diplome de l'EAMAC", initials: "src/images/asec.jpeg", speciality: "Doctorant en physique", alt:"images" },
-  { name: "ING. TETCHOKA LOIC", role: "Ingénieur en genie informatique", initials: "src/images/python.jpeg", speciality: "genie logiciel/data analyst/data engenering", alt:"images" },
-   { name: "DR. TCHOUPO REAL PROSPER", role: "Docteur diplomé de l'université de Nairobi au Kenya", initials: "src/images/real.jpeg", speciality: "Sciences de la vie et de la terre/Biologie etc...", alt:"images" },
-   { name: "ING. KAMMOGNE PHILIPPE", role: "Ingénieur en électronique et instrumentation", initials: "src/images/phil.jpeg", speciality: "Sciences physiques", alt:"images" },
-   {name: "VOFFO CHINGANG FREDY ANELKA", role: "Comptable ", initials: "src/images/anel.jpeg", speciality: "Comptabilité Finance et Audit", alt:"images" },
+  { name: "ING. DJIKESSI BRICE", role: "Promoteur de Smart's corporation ", initials: "/images/brice.jpeg", speciality: "Ingénieur en génie élctrique", alt:"images" },
+  { name: "M. SAA DONALD", role: "Pleg en mathématique", initials: "/images/sa.jpeg", speciality: "Sciences mathématiques", alt:"images" },
+  { name: "M. DWANDI JOSPIN", role: "Diplome de l'EAMAC", initials: "/images/asec.jpeg", speciality: "Doctorant en physique", alt:"images" },
+  { name: "ING. TETCHOKA LOIC", role: "Ingénieur en genie informatique", initials: "/images/python.jpeg", speciality: "genie logiciel/data analyst/data engenering", alt:"images" },
+   { name: "DR. TCHOUPO REAL PROSPER", role: "Docteur diplomé de l'université de Nairobi au Kenya", initials: "/images/real.jpeg", speciality: "Sciences de la vie et de la terre/Biologie etc...", alt:"images" },
+   { name: "ING. KAMMOGNE PHILIPPE", role: "Ingénieur en électronique et instrumentation", initials: "/images/phil.jpeg", speciality: "Sciences physiques", alt:"images" },
+   {name: "VOFFO CHINGANG FREDY ANELKA", role: "Comptable ", initials: "/images/anel.jpeg", speciality: "Comptabilité Finance et Audit", alt:"images" },
 ];
 
 const About = () => {

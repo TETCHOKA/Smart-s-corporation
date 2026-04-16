@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group" onClick={() => setIsOpen(false)}>
             <div className="w-20 h-20   flex items-center justify-center ">
-              <img src="/src/images/smart.png" alt="logo" />
+              <img src="/images/smart.png" alt="logo" />
             </div>
             <span className="text-lg md:text-xl font-bold text-foreground tracking-tight">
               Smart's <span className="text-primary">Corporation</span>

@@ -103,7 +103,7 @@ const articles = [
     id: 1,
     title: "5 conseils pour réussir le concours de Polytechnique",
     excerpt: "Découvrez nos meilleures stratégies pour aborder sereinement le concours d'entrée à l'École Polytechnique.",
-     
+    date: "5 Mars 2026", 
     category: "Conseils",
   },
   {
