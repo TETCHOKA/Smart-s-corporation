@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
     formation: "IUT DE DOUALA",
     year: "2025",
     quote:
-      "La préparation à la FMSB était intense mais structurée. Les exercices pratiques et les simulations d'examens m'ont permis d'être prête le jour J.",
+      "La préparation était intense mais structurée. Les exercices pratiques et les simulations d'examens m'ont permis d'être prête le jour J.",
     avatar: "/images/cris.jpeg",
   },
   {
