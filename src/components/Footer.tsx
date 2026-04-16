@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <div className="w-20 h-20 rounded-lg  flex items-center justify-center">
-                <img src="src/images/smart_blanc.png" alt="logo" />
+                <img src="/images/smart_blanc.png" alt="logo" />
               </div>
               <span className="text-lg font-bold">
                 Smart's <span className="text-primary">Corporation</span>
