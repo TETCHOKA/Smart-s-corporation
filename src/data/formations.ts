@@ -5,7 +5,6 @@ export interface Formation {
   categoryIcon: string;
   description: string;
   conditions: string;
-  duration: string;
   modes: string[];
 }
 
@@ -31,8 +30,7 @@ export const formationCategories: FormationCategory[] = [
         categoryIcon: "🔧",
         description:
           "Préparation intensive au concours d'entrée à l'École Nationale Supérieure Polytechnique. Programme couvrant les mathématiques avancées, la physique et la chimie.",
-        conditions: "Baccalauréat série C, D ou E avec une moyenne minimum de 12/20",
-        duration: "6 à 9 mois",
+        conditions: "Baccalauréat série C, D, E ou F ",
         modes: ["En groupe", "À domicile"],
       },
       {
@@ -43,9 +41,29 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation au concours d'entrée aux Instituts Universitaires de Technologie, filières techniques. Focus sur les sciences appliquées et la technologie.",
         conditions: "Baccalauréat série C, D, E ou F",
-        duration: "4 à 6 mois",
-        modes: ["En groupe"],
+         modes: ["En groupe", "À domicile"],
       },
+      {
+        id: "ENSTP",
+        name: "ENSTP",
+        category: "Ingénierie",
+        categoryIcon: "🔧",
+        description:
+          "Préparation au concours d'entrée a l'ecole nationale superieure des travaux publiques.",
+        conditions: "Baccalauréat série C, D, E ou F",
+         modes: ["En groupe", "À domicile"],
+      },
+       {
+        id: "ESTMO",
+        name: "ESTMO",
+        category: "Ingénierie",
+        categoryIcon: "🔧",
+        description:
+          "Préparation au concours d'entrée a l'ecole nationale superieure des sciences et techniques maritimes et oceaniques.",
+        conditions: "Baccalauréat série C, D, E ou F",
+        modes: ["En groupe", "À domicile"],
+      },
+
     ],
   },
   {
@@ -62,7 +80,6 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation complète au concours d'entrée à l'ENS. Formation pédagogique et disciplinaire pour devenir enseignant du secondaire.",
         conditions: "Baccalauréat toutes séries selon la filière choisie",
-        duration: "6 à 9 mois",
         modes: ["En groupe", "À domicile"],
       },
       {
@@ -73,8 +90,7 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation au concours ENSET pour les filières d'enseignement technique. Programme adapté aux spécialités techniques et professionnelles.",
         conditions: "Baccalauréat technique ou général selon la filière",
-        duration: "4 à 8 mois",
-        modes: ["En groupe"],
+         modes: ["En groupe", "À domicile"],
       },
     ],
   },
@@ -91,8 +107,7 @@ export const formationCategories: FormationCategory[] = [
         categoryIcon: "💼",
         description:
           "Préparation au concours d'entrée à l'ESSEC. Programme axé sur l'économie, la gestion, les mathématiques commerciales et la culture générale.",
-        conditions: "Baccalauréat série A, B, C ou D",
-        duration: "6 à 9 mois",
+        conditions: "Baccalauréat série A, C ou D",
         modes: ["En groupe", "À domicile"],
       },
       {
@@ -103,8 +118,7 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation aux concours des IUT en gestion, comptabilité et commerce. Formation pratique et théorique.",
         conditions: "Baccalauréat toutes séries",
-        duration: "4 à 6 mois",
-        modes: ["En groupe"],
+         modes: ["En groupe", "À domicile"],
       },
     ],
   },
@@ -121,8 +135,7 @@ export const formationCategories: FormationCategory[] = [
         categoryIcon: "🏥",
         description:
           "Préparation intensive au concours d'entrée en médecine à la FMSB. Programme rigoureux couvrant la biologie, la chimie, la physique et les mathématiques.",
-        conditions: "Baccalauréat série C ou D avec mention",
-        duration: "8 à 12 mois",
+        conditions: "Baccalauréat série C ou D ",
         modes: ["En groupe", "À domicile"],
       },
       {
@@ -131,10 +144,9 @@ export const formationCategories: FormationCategory[] = [
         category: "Médecine",
         categoryIcon: "🏥",
         description:
-          "Préparation au concours FMSP, spécialisée en sciences pharmaceutiques et biomédicales.",
+          "Préparation au concours FMSP, spécialisée en sciences pharmaceutiques.",
         conditions: "Baccalauréat série C ou D",
-        duration: "6 à 10 mois",
-        modes: ["En groupe"],
+         modes: ["En groupe", "À domicile"],
       },
     ],
   },
@@ -151,9 +163,8 @@ export const formationCategories: FormationCategory[] = [
         categoryIcon: "🌍",
         description:
           "Préparation au concours ISSEA. Formation en statistiques, économie appliquée et mathématiques avancées.",
-        conditions: "Baccalauréat série C ou D avec d'excellents résultats en mathématiques",
-        duration: "6 à 9 mois",
-        modes: ["En groupe"],
+        conditions: "Baccalauréat série C, D ou E avec d'excellents résultats en mathématiques", 
+        modes: ["En groupe", "À domicile"],
       },
       {
         id: "asecna",
@@ -163,8 +174,7 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation aux concours de l'ASECNA pour les métiers de l'aéronautique et de la navigation aérienne.",
         conditions: "Baccalauréat série C, D ou E",
-        duration: "6 à 8 mois",
-        modes: ["En groupe"],
+         modes: ["En groupe", "À domicile"],
       },
       {
         id: "eamau",
@@ -174,7 +184,6 @@ export const formationCategories: FormationCategory[] = [
         description:
           "Préparation au concours d'entrée à l'EAMAU. Formation en dessin technique, mathématiques et culture architecturale.",
         conditions: "Baccalauréat série C, D ou E",
-        duration: "6 à 9 mois",
         modes: ["En groupe", "À domicile"],
       },
     ],

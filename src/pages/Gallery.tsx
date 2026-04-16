@@ -2,20 +2,23 @@ import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ImageIcon } from "lucide-react";
+ 
 
 const categories = ["Tout", "Cours", "Centre", "Activités", "Événements"];
 
 const galleryItems = [
-  { id: 1, category: "Cours", title: "Session de préparation en mathématiques" },
-  { id: 2, category: "Centre", title: "Salle de cours principale" },
-  { id: 3, category: "Activités", title: "Travail en groupe" },
-  { id: 4, category: "Événements", title: "Cérémonie de remise des attestations" },
-  { id: 5, category: "Cours", title: "Cours de physique-chimie" },
-  { id: 6, category: "Centre", title: "Bibliothèque du centre" },
-  { id: 7, category: "Activités", title: "Simulation d'examen" },
-  { id: 8, category: "Événements", title: "Journée portes ouvertes" },
-  { id: 9, category: "Cours", title: "Tutorat individuel" },
+  { id: 1, category: "Cours", title: "Session de préparation en mathématiques", img:"src/images/salle.jpeg"},
+  { id: 2, category: "Centre", title: "Smat's Challenge", img:"src/images/chalenge1.jpeg" },
+  { id: 3, category: "Activités", title: "Promoteur", img:"src/images/chalenge4.jpeg" },
+  { id: 4, category: "Événements", title: "Smat's Challenge", img:"src/images/chalenge.jpeg" },
+  { id: 5, category: "Cours", title: "Smat's Challenge", img:"src/images/chal.jpeg" },
+  { id: 6, category: "Centre", title: "Smat's Challenge", img:"src/images/chalenge3.jpeg" },
+  { id: 7, category: "Activités", title: "Simulation d'examen", img:"src/images/adja.jpeg" },
+  { id: 8, category: "Événements", title: "Journée portes ouvertes",  img:"src/images/journe.jpeg"},
+  { id: 9, category: "Cours", title: "Tutorat individuel", img:"src/images/chalenge2.jpeg" },
 ];
+
+ 
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("Tout");
@@ -57,11 +60,12 @@ const Gallery = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((item) => (
               <Card key={item.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
-                <div className="aspect-video bg-muted flex items-center justify-center">
-                  <div className="text-center space-y-2 p-4">
-                    <ImageIcon className="w-12 h-12 mx-auto text-muted-foreground/40" />
-                    <p className="text-xs text-muted-foreground">Photo à venir</p>
-                  </div>
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
                 <CardContent className="p-4">
                   <p className="text-sm font-medium text-foreground">{item.title}</p>

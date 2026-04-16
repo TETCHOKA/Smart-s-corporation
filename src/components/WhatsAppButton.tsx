@@ -1,8 +1,8 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "237600000000"; // Placeholder – replace with real number
+const WHATSAPP_NUMBER = "237655785620"; // Placeholder – replace with real number
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Bonjour Smart's Corporation ! Je souhaite avoir des informations sur vos formations."
+  "Bonjour Smart's Corporation ! Je souhaite avoir des informations sur vos formations (différents concours, les centres de preparations et les modalités)."
 );
 
 const WhatsAppButton = () => {

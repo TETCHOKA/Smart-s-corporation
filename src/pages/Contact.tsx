@@ -113,9 +113,9 @@ const Contact = () => {
 
               <div className="space-y-4">
                 {[
-                  { icon: Phone, label: "Téléphone", value: "+237 6XX XXX XXX" },
-                  { icon: Mail, label: "Email", value: "contact@smartscorporation.cm" },
-                  { icon: MapPin, label: "Adresse", value: "Yaoundé, Cameroun" },
+                  { icon: Phone, label: "Téléphone", value: "+237 695 76 42 87" },
+                  { icon: Mail, label: "Email", value: "smartscorporation2014@gmail.com" },
+                  { icon: MapPin, label: "Adresse", value: "Douala, Cameroun" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-start gap-4 p-4 rounded-lg bg-card border border-border">
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -131,7 +131,7 @@ const Contact = () => {
 
               {/* WhatsApp CTA */}
               <a
-                href={`https://wa.me/237600000000?text=${encodeURIComponent("Bonjour, j'aimerais avoir des informations.")}`}
+                href={`https://wa.me/237655785620?text=${encodeURIComponent("Bonjour, j'aimerais avoir des informations.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-5 rounded-xl bg-[hsl(145,63%,42%)] text-white hover:bg-[hsl(145,63%,36%)] transition-colors shadow-md"
@@ -144,31 +144,44 @@ const Contact = () => {
               </a>
 
               {/* Map placeholder */}
-              <div className="rounded-xl overflow-hidden border border-border">
-                <div className="aspect-video bg-muted flex items-center justify-center">
-                  <div className="text-center space-y-2">
-                    <MapPin className="w-10 h-10 mx-auto text-muted-foreground/40" />
-                    <p className="text-sm text-muted-foreground">Google Maps – Yaoundé, Cameroun</p>
-                    <p className="text-xs text-muted-foreground">Intégration à venir</p>
-                  </div>
-                </div>
-              </div>
+           <div className="rounded-xl overflow-hidden border border-border">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6473223502035!2d9.793880673603468!3d4.091995595881768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dd3fe9e0c13%3A0x57563ec1d9019841!2sCollege%20Charles%20De%20Gaulle%2C%20Douala!5e0!3m2!1sfr!2scm!4v1776335544194!5m2!1sfr!2scm"
+                width="100%"
+                height="350"
+                style={{ border: 0, display: "block" }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localisation Smart's Corporation"
+                className="w-full"
+              />
+            </div>
 
               {/* Social */}
               <div>
-                <h3 className="font-semibold text-foreground mb-3">Suivez-nous</h3>
-                <div className="flex gap-3">
-                  {["Facebook", "Instagram", "LinkedIn"].map((social) => (
-                    <a
-                      key={social}
-                      href="#"
-                      className="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-foreground hover:border-primary hover:text-primary transition-colors"
-                    >
-                      {social}
-                    </a>
-                  ))}
-                </div>
-              </div>
+  <h3 className="font-semibold text-foreground mb-3">Suivez-nous</h3>
+  <div className="flex gap-3">
+    
+      <a
+      href="https://www.facebook.com/share/1B6gDLgrtZ/?mibextid=wwXIfr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-foreground hover:border-primary hover:text-primary transition-colors"
+    >
+      Facebook
+    </a>
+    
+      <a
+      href="https://www.tiktok.com/@smarts_corporation?_r=1&_t=ZS-95aJgrWYljL"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium text-foreground hover:border-primary hover:text-primary transition-colors"
+    >
+      TikTok
+    </a>
+  </div>
+</div>
             </div>
           </div>
         </div>

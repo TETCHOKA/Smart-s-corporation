@@ -85,10 +85,9 @@ const Formations = () => {
                           <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
                           <span className="text-muted-foreground"><strong>Conditions :</strong> {formation.conditions}</span>
                         </div>
-                        <div className="flex items-center gap-2 text-sm">
+                        {/* <div className="flex items-center gap-2 text-sm">
                           <Clock className="w-4 h-4 text-primary flex-shrink-0" />
-                          <span className="text-muted-foreground"><strong>Durée :</strong> {formation.duration}</span>
-                        </div>
+                        </div> */}
                         <div className="flex items-center gap-2 text-sm">
                           {formation.modes.includes("À domicile") ? (
                             <Home className="w-4 h-4 text-primary flex-shrink-0" />

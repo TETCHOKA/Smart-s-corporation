@@ -9,10 +9,13 @@ const values = [
 ];
 
 const team = [
-  { name: "Dr. Emmanuel Nguema", role: "Directeur & Fondateur", initials: "EN", speciality: "Mathématiques & Physique" },
-  { name: "Prof. Hélène Atangana", role: "Responsable pédagogique", initials: "HA", speciality: "Sciences biologiques" },
-  { name: "M. Patrick Eboumbou", role: "Formateur senior", initials: "PE", speciality: "Chimie & Physique" },
-  { name: "Mme. Sandrine Kamga", role: "Coordinatrice", initials: "SK", speciality: "Économie & Gestion" },
+  { name: "ING. DJIKESSI BRICE", role: "Promoteur de Smart's corporation ", initials: "src/images/brice.jpeg", speciality: "Ingénieur en génie élctrique", alt:"images" },
+  { name: "M. SAA DONALD", role: "Pleg en mathématique", initials: "src/images/sa.jpeg", speciality: "Sciences mathématiques", alt:"images" },
+  { name: "M. DWANDI JOSPIN", role: "Diplome de l'EAMAC", initials: "src/images/asec.jpeg", speciality: "Doctorant en physique", alt:"images" },
+  { name: "ING. TETCHOKA LOIC", role: "Ingénieur en genie informatique", initials: "src/images/python.jpeg", speciality: "genie logiciel/data analyst/data engenering", alt:"images" },
+   { name: "DR. TCHOUPO REAL PROSPER", role: "Docteur diplomé de l'université de Nairobi au Kenya", initials: "src/images/real.jpeg", speciality: "Sciences de la vie et de la terre/Biologie etc...", alt:"images" },
+   { name: "ING. KAMMOGNE PHILIPPE", role: "Ingénieur en électronique et instrumentation", initials: "src/images/phil.jpeg", speciality: "Sciences physiques", alt:"images" },
+   {name: "VOFFO CHINGANG FREDY ANELKA", role: "Comptable ", initials: "src/images/anel.jpeg", speciality: "Comptabilité Finance et Audit", alt:"images" },
 ];
 
 const About = () => {
@@ -25,7 +28,7 @@ const About = () => {
             À propos de <span className="text-gradient">Smart's Corporation</span>
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Depuis plus de 10 ans, nous accompagnons les étudiants camerounais vers la réussite aux concours les plus exigeants.
+            Depuis plusieurs années, nous accompagnons les étudiants camerounais vers la réussite aux concours les plus exigeants.
           </p>
         </div>
       </section>
@@ -89,9 +92,13 @@ const About = () => {
             {team.map((member) => (
               <Card key={member.name} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 space-y-3">
-                  <div className="w-20 h-20 mx-auto rounded-full bg-primary flex items-center justify-center text-primary-foreground text-xl font-bold">
-                    {member.initials}
-                  </div>
+                                  <div className="w-16 h-16 mx-auto rounded-full overflow-hidden border-2 border-primary">
+                                    <img
+                                      src={member.initials}
+                                      alt={member.alt}
+                                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                    />
+                                  </div>
                   <h3 className="font-bold text-foreground">{member.name}</h3>
                   <p className="text-sm font-medium text-primary">{member.role}</p>
                   <p className="text-xs text-muted-foreground">{member.speciality}</p>

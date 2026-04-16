@@ -23,8 +23,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group" onClick={() => setIsOpen(false)}>
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-              <GraduationCap className="w-6 h-6 text-primary-foreground" />
+            <div className="w-20 h-20   flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
+              <img src="src/images/smart.png" alt="logo" />
             </div>
             <span className="text-lg md:text-xl font-bold text-foreground tracking-tight">
               Smart's <span className="text-primary">Corporation</span>
