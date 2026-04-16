@@ -16,6 +16,11 @@ const galleryItems = [
   { id: 7, category: "Activités", title: "Simulation d'examen", img:"/images/adja.jpeg" },
   { id: 8, category: "Événements", title: "Journée portes ouvertes",  img:"/images/journe.jpeg"},
   { id: 9, category: "Cours", title: "Tutorat individuel", img:"/images/chalenge2.jpeg" },
+  { id: 10, category: "Événements", title: "Equipe smart's corporation a l'émission faut pas zapper de balafon", img:"/images/bal.jpeg" },
+  { id: 11, category: "Activités", title: "Maritech entreprise", img:"/images/ma.jpeg" },
+  { id: 12, category: "Activités", title: "Smat's Challenge", img:"/images/bal1.jpeg" },
+  { id: 13, category: "Activités", title: "Maritech entreprise", img:"/images/ma1.jpeg" },
+
 ];
 
  
