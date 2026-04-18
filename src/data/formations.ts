@@ -29,7 +29,7 @@ export const formationCategories: FormationCategory[] = [
         category: "Ingénierie",
         categoryIcon: "🔧",
         description:
-          "Préparation intensive au concours d'entrée à l'École Nationale Supérieure Polytechnique. Programme couvrant les mathématiques avancées et la physiqu.",
+          "Préparation intensive au concours d'entrée à l'École Nationale Supérieure Polytechnique. Programme couvrant les mathématiques avancées et la physique.",
         conditions: "Baccalauréat série C, D, E ou F ",
         modes: ["En groupe", "À domicile"],
       },
