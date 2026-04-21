@@ -10,7 +10,7 @@ const articles = [
     title: "Arreté portant le lancement du concours de l'iut de douala",
     excerpt: "Découvrez tout ce qu'il y a à savoir sur l'iut de douala (filières etc...).",
     date: "19 Avril 2026", 
-    category: "Conseils",
+    category: "Informations",
     externalLink: "https://www.minesup.gov.cm/wp-content/uploads/2026/04/IUT_UIT_EDEA_Douala.pdf", // Remplacez par le lien réel
   },
   {
@@ -26,6 +26,7 @@ const articles = [
     excerpt: "Retrouvez toutes les dates importantes des concours pour l'année académique 2026-2027.",
     date: "10 Mars 2026",
     category: "Informations",
+     externalLink: "https://www.ensahv.cm/wp-content/uploads/2026/02/Calendrier-Concours-MINESUP-2026-2027.pdf"
   },
   {
     id: 4,
