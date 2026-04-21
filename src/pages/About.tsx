@@ -4,12 +4,12 @@ import { Target, Eye, Heart, Award, Users, BookOpen } from "lucide-react";
 const values = [
   { icon: Target, title: "Excellence", description: "Nous visons l'excellence dans chaque programme de formation." },
   { icon: Heart, title: "Engagement", description: "Un accompagnement personnalisé pour chaque étudiant." },
-  { icon: Award, title: "Résultats", description: "Un taux de réussite parmi les meilleurs du Cameroun." },
+  { icon: Award, title: "Résultats", description: "Un taux de réussite qui bat toute concurrence." },
   { icon: Users, title: "Communauté", description: "Une communauté d'entraide entre étudiants et formateurs." },
 ];
 
 const team = [
-  { name: "ING. DJIKESSI BRICE", role: "Promoteur de Smart's corporation ", initials: "/images/brice.jpeg", speciality: "Ingénieur en génie élctrique", alt:"images" },
+  { name: "ING. DJIKESSI BRICE", role: "Coordonnateur régionale de Smart's corporation ", initials: "/images/brice.jpeg", speciality: "Ingénieur en génie élctrique", alt:"images" },
   { name: "M. SAA DONALD", role: "Pleg en mathématique", initials: "/images/sa.jpeg", speciality: "Sciences mathématiques", alt:"images" },
   { name: "M. DWANDI JOSPIN", role: "Diplome de l'EAMAC", initials: "/images/asec.jpeg", speciality: "Doctorant en physique", alt:"images" },
   { name: "ING. TETCHOKA LOIC", role: "Ingénieur en genie informatique", initials: "/images/python.jpeg", speciality: "genie logiciel/data analyst/data engenering", alt:"images" },

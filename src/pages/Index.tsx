@@ -30,14 +30,14 @@ const centres = [
     nom: "GSB ÉLITE – Logpom",
     adresse: "Face Tradex Logpom, entre le rond  Poulain et l'ancien ÉNEO",
     quartier: "Logpom, Douala",
-    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6473223502035!2d9.793880673603468!3d4.091995595881768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dd3fe9e0c13%3A0x57563ec1d9019841!2sCollege%20Charles%20De%20Gaulle%2C%20Douala!5e0!3m2!1sfr!2scm!4v1776335544194!5m2!1sfr!2scm",
+    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6756887899323!2d9.755946873603417!3d4.086282995887476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dd0d243add7%3A0xc60b55801808a465!2sTradex%20Rh%C3%B4ne%20Poulenc%2C%20Douala!5e0!3m2!1sfr!2scm!4v1776758102492!5m2!1sfr!2scm",
   },
   {
     id: 2,
     nom: "Collège IPPB – Bonamoussadi",
     adresse: "Entre le marché Bonamoussadi et le carrefour des immeubles",
     quartier: "Bonamoussadi, Douala",
-    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6473223502035!2d9.793880673603468!3d4.091995595881768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dd3fe9e0c13%3A0x57563ec1d9019841!2sCollege%20Charles%20De%20Gaulle%2C%20Douala!5e0!3m2!1sfr!2scm!4v1776335544194!5m2!1sfr!2scm",
+    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7959.284322666972!2d9.73874635285856!3d4.093034095880721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610fb2f1299c9b%3A0xd606a0fbfadf9fa9!2sKMC%20BONAMOUSSADI!5e0!3m2!1sfr!2scm!4v1776757659286!5m2!1sfr!2scm",
   },
 ];
 
@@ -68,7 +68,7 @@ const Index = () => {
               commence ici
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Smart's Corporation vous prépare aux plus grands concours du Cameroun avec des méthodes aprouvées et un accompagnement personnalisé.
+              Smart's Corporation vous prépare aux concours d'entrée dans les plus grandes écoles et facultés du Cameroun et de l'étranger avec des méthodes aprouvées et un accompagnement personnalisé.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base font-semibold shadow-lg px-8" onClick={() => setModalOpen(true)}>

@@ -7,11 +7,12 @@ const subjects = [
   { name: "Mathématiques", description: "Algèbre, analyse, géométrie, probabilités et statistiques", icon: "📐" },
   { name: "Physique", description: "Mécanique, électricité, optique, thermodynamique", icon: "⚡" },
   { name: "Chimie", description: "Chimie organique, chimie minérale, thermochimie", icon: "🧪" },
-  { name: "Culture générale", description: "Actualités, histoire, géographie, expression française", icon: "📚" },
+  { name: "Culture générale", description: "Actualités, histoire, géographie, expression française, éducation a la citoyeneté",   icon: "📚" },
+
 ];
 
 const advantages = [
-  "Programmes adaptés au niveau de chaque étudiant",
+  "Programmes adaptés au niveau de chaque éleves",
   "Enseignants qualifiés et expérimentés",
   "Supports de cours complets et actualisés",
   "Exercices pratiques et corrections détaillées",
@@ -28,7 +29,7 @@ const Courses = () => {
       <section className="section-padding bg-gradient-to-br from-primary/10 via-background to-secondary">
         <div className="container mx-auto text-center max-w-3xl space-y-4">
           <h1 className="text-4xl md:text-5xl font-extrabold text-foreground">
-            Cours de <span className="text-gradient">remise à niveau</span>
+            Cours de <span className="text-gradient">répétition pour les éleves du secondaire</span>
           </h1>
           <p className="text-lg text-muted-foreground">
             Renforcez vos bases et comblez vos lacunes avec nos cours de soutien personnalisés.
@@ -47,7 +48,7 @@ const Courses = () => {
                 </div>
                 <h2 className="text-2xl font-bold text-foreground">Cours en groupe</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Apprenez en petits groupes de 5 à 15 étudiants pour une dynamique collective stimulante. Échanges, émulation et entraide au programme.
+                  Apprenez en petits groupes de 5 à 15 éleves pour une dynamique collective stimulante. Échanges, émulation et entraide au programme.
                 </p>
                 <ul className="space-y-2">
                   {["Groupes de 5 à 15 étudiants", "Horaires fixes et réguliers", "Tarifs avantageux"].map((item) => (

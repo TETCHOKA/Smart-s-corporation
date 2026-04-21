@@ -101,41 +101,49 @@ import { CalendarDays, ArrowRight } from "lucide-react";
 const articles = [
   {
     id: 1,
+    title: "Arreté portant le lancement du concours de l'iut de douala",
+    excerpt: "Découvrez tout ce qu'il ya a savoir sur l'iut de douala(filieres etc...).",
+    date: "19 Avril 2026", 
+    category: "Document",
+     externalLink: "https://www.minesup.gov.cm/wp-content/uploads/2026/04/IUT_UIT_EDEA_Douala.pdf", 
+  },
+  {
+    id:2,
     title: "5 conseils pour réussir le concours de Polytechnique",
     excerpt: "Découvrez nos meilleures stratégies pour aborder sereinement le concours d'entrée à l'École Polytechnique.",
     date: "5 Mars 2026", 
     category: "Conseils",
   },
   {
-    id: 2,
+    id:3,
     title: "Calendrier des concours 2026 au Cameroun",
     excerpt: "Retrouvez toutes les dates importantes des concours pour l'année académique 2026-2027.",
     date: "10 Mars 2026",
     category: "Informations",
   },
   {
-    id: 3,
+    id: 4,
     title: "Comment bien organiser ses révisions ?",
     excerpt: "Un planning de révision efficace est la clé de la réussite. Voici comment le mettre en place.",
     date: "5 Mars 2026",
     category: "Astuces",
   },
   {
-    id: 4,
+    id:5,
     title: "Résultats exceptionnels de nos étudiants en 2024",
     excerpt: "Nous sommes fiers d'annoncer un taux de réussite de 85% pour la session 2024.",
     date: "1 Mars 2026",
     category: "Actualités",
   },
   {
-    id: 5,
+    id: 6,
     title: "Nouvelle session de préparation FMSB",
     excerpt: "Inscription ouverte pour la nouvelle session intensive de préparation au concours de médecine.",
     date: "25 Février 2026",
     category: "Actualités",
   },
   {
-    id: 6,
+    id: 7,
     title: "Les erreurs à éviter lors d'un concours",
     excerpt: "Analyse des erreurs les plus fréquentes commises par les candidats et comment les éviter.",
     date: "20 Février 2026",
@@ -156,6 +164,7 @@ const Blog = () => {
           </p>
         </div>
       </section>
+
 
       <section className="section-padding">
         <div className="container mx-auto">

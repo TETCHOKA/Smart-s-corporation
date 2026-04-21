@@ -113,7 +113,7 @@ const Contact = () => {
 
               <div className="space-y-4">
                 {[
-                  { icon: Phone, label: "Téléphone", value: "+237 695 76 42 87" },
+                  { icon: Phone, label: "Téléphone", value: "+237 655 78 56 20" },
                   { icon: Mail, label: "Email", value: "smartscorporation2014@gmail.com" },
                   { icon: MapPin, label: "Adresse", value: "Douala, Cameroun" },
                 ].map((item) => (
@@ -146,7 +146,7 @@ const Contact = () => {
               {/* Map placeholder */}
            <div className="rounded-xl overflow-hidden border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6473223502035!2d9.793880673603468!3d4.091995595881768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dd3fe9e0c13%3A0x57563ec1d9019841!2sCollege%20Charles%20De%20Gaulle%2C%20Douala!5e0!3m2!1sfr!2scm!4v1776335544194!5m2!1sfr!2scm"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7959.284322666972!2d9.73874635285856!3d4.093034095880721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610fb2f1299c9b%3A0xd606a0fbfadf9fa9!2sKMC%20BONAMOUSSADI!5e0!3m2!1sfr!2scm!4v1776757659286!5m2!1sfr!2scm"
                 width="100%"
                 height="350"
                 style={{ border: 0, display: "block" }}

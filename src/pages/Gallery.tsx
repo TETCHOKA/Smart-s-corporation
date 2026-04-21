@@ -8,12 +8,12 @@ const categories = ["Tout", "Cours", "Centre", "Activités", "Événements"];
 
 const galleryItems = [
   { id: 1, category: "Cours", title: "Session de préparation en mathématiques", img:"/images/salle.jpeg"},
-  { id: 2, category: "Centre", title: "Smat's Challenge", img:"/images/chalenge1.jpeg" },
-  { id: 3, category: "Activités", title: "Promoteur", img:"/images/chalenge4.jpeg" },
+  { id: 2, category: "Événements", title: "Smat's Challenge", img:"/images/chalenge1.jpeg" },
+  { id: 3, category: "Activités", title: "Coordonnateur régionale", img:"/images/chalenge4.jpeg" },
   { id: 4, category: "Événements", title: "Smat's Challenge", img:"/images/chalenge.jpeg" },
-  { id: 5, category: "Cours", title: "Smat's Challenge", img:"/images/chal.jpeg" },
-  { id: 6, category: "Centre", title: "Smat's Challenge", img:"/images/chalenge3.jpeg" },
-  { id: 7, category: "Activités", title: "Simulation d'examen", img:"/images/adja.jpeg" },
+  { id: 5, category: "Événements", title: "Smat's Challenge", img:"/images/chal.jpeg" },
+  { id: 6, category: "Événements", title: "Smat's Challenge", img:"/images/chalenge3.jpeg" },
+  { id: 7, category: "Activités", title: "Un bachelier un concours", img:"/images/adja.jpeg" },
   { id: 8, category: "Événements", title: "Journée portes ouvertes",  img:"/images/journe.jpeg"},
   { id: 9, category: "Cours", title: "Tutorat individuel", img:"/images/chalenge2.jpeg" },
   { id: 10, category: "Événements", title: "Equipe smart's corporation a l'émission faut pas zapper de balafon", img:"/images/bal.jpeg" },
