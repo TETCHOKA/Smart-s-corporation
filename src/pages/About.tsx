@@ -4,7 +4,7 @@ import { Target, Eye, Heart, Award, Users, BookOpen } from "lucide-react";
 const values = [
   { icon: Target, title: "Excellence", description: "Nous visons l'excellence dans chaque programme de formation." },
   { icon: Heart, title: "Engagement", description: "Un accompagnement personnalisé pour chaque étudiant." },
-  { icon: Award, title: "Résultats", description: "Un taux de réussite qui bat toute concurrence." },
+  { icon: Award, title: "Résultats", description: "Un taux de réussite qui bat toute concurrences." },
   { icon: Users, title: "Communauté", description: "Une communauté d'entraide entre étudiants et formateurs." },
 ];
 

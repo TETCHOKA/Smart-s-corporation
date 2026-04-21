@@ -68,7 +68,7 @@ const Index = () => {
               commence ici
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Smart's Corporation vous prépare aux concours d'entrée dans les plus grandes écoles et facultés du Cameroun et de l'étranger avec des méthodes aprouvées et un accompagnement personnalisé.
+              Smart's Corporation vous prépare aux concours d'entrées dans les plus grandes écoles et facultés du Cameroun et de l'étranger avec des méthodes aprouvées et un accompagnement personnalisé.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base font-semibold shadow-lg px-8" onClick={() => setModalOpen(true)}>

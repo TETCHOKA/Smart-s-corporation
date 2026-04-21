@@ -51,7 +51,7 @@ const Courses = () => {
                   Apprenez en petits groupes de 5 à 15 éleves pour une dynamique collective stimulante. Échanges, émulation et entraide au programme.
                 </p>
                 <ul className="space-y-2">
-                  {["Groupes de 5 à 15 étudiants", "Horaires fixes et réguliers", "Tarifs avantageux"].map((item) => (
+                  {["Groupes de 5 à 15 éleves", "Horaires fixes et réguliers", "Tarifs avantageux"].map((item) => (
                     <li key={item} className="flex items-center gap-2 text-sm text-muted-foreground">
                       <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
                       {item}
